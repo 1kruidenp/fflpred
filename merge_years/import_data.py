@@ -2,8 +2,9 @@ import pandas as pd
 
 def get_full_data(raw_data_path, return_missing_column_list = False):
     """
-    Receives the path of the raw-data folder (ending in /raw_data) and returns the dataset of all years combined
-    and a dictionary of missing columns of format: Key = missing column name, Value = year(s) in which it existed
+    Receives the path of the raw-data folder (ending in /raw_data) and returns the dataset of all years combined.
+    If return_missing_column_list is True, returns a  dictionary of missing columns of format:
+    Key = missing column name, Value = year(s) in which it existed
     """
 
     # Read raw_data into individual dataframes
