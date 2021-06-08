@@ -33,3 +33,17 @@ def mov_a_error(points = 'total_points', days = 3):
     output['error'] = abs(output.moving_a - output.total_points)
     return output
 
+
+
+def predict_next(player):
+    '''
+    baseline prediction of total_points for a player's next game (not played yet)
+    '''
+    data = mov_a_error()
+    players_list = data.name.unique()
+    ### Add some other If conditionners -> is he still playing in england inn 2021 etc? 
+    if player in players_list:
+        player_df = data[data["name"] == player].tail(3)
+    else:
+        return "Player Unknown"
+    return player_df['total_points'].mean()
