@@ -67,18 +67,12 @@ def get_full_data(raw_data_path, return_missing_column_list=False):
     # Drop column 'round' as it is the same as 'GW'
     complete_data.drop(columns=['round'], inplace=True)
 
-    # Turn kickoff date into datetime, sort dataframe by name and kickoff date,
-    complete_data.kickoff_time = pd.to_datetime(complete_data.kickoff_time)
-    complete_data = complete_data.sort_values(by=['name', 'kickoff_time'],
-                                              ascending=True)
-    complete_data.reset_index(drop=True, inplace=True)
-    complete_data['kickoff_date'] = complete_data['kickoff_time']\
-                                    .apply(lambda d: d.date())
-    complete_data['kickoff_time'] = complete_data['kickoff_time']\
-                                    .apply(lambda d: d.time())
+    # Set names to lowercase
+    complete_data.name = complete_data.name.apply(lambda n: n.lower())
 
     # Correct game weeks for 2020
     complete_data['GW'] = complete_data['GW'].apply(corrector)
+
 
     # Import data about player positions
     raw21 = pd.read_csv(raw_data_path + '/2020-21/players_raw.csv',
@@ -106,8 +100,8 @@ def get_full_data(raw_data_path, return_missing_column_list=False):
         positions = map(lambda num: position_by_name[num],
                         season['element_type'])  #Map the positions
         season['position'] = list(positions)  #Assign the map to new columns
-        season['name'] = season['first_name'] + ' ' + season[
-            'second_name']  #Merge the first and second names of the raw players
+        season['name'] = season['first_name'] + ' '\
+                            + season['second_name']  #Merge the first and second names of the raw players
         season['name'] = season['name'].str.lower()  #Set these names to lower
         for i, row in season.iterrows():  #Change caglar to çaglar
             if row['name'] == 'caglar söyüncü':
@@ -149,13 +143,23 @@ def get_full_data(raw_data_path, return_missing_column_list=False):
     #Reconcatenate the data into a complete dataset
     complete_data = pd.concat([df17, df18, df19, df20, df21])
 
-    complete_data.drop_duplicates(
-        inplace=True)  #Drop the duplicates (Danny Ward and Ben Davies)
+    complete_data.drop_duplicates(inplace=True)  #Drop the duplicates (Danny Ward and Ben Davies)
 
-    for i, row in complete_data.iterrows(
-    ):  #Change the goalkeeper Danny Ward to the correct position.
+    for i, row in complete_data.iterrows():  #Change the goalkeeper Danny Ward to the correct position.
         if row['name'] == 'danny ward' and row['element'] == 105:
             complete_data['position'].at[i] = 'GK'
+
+    # Turn kickoff date into datetime, sort dataframe by name and kickoff date,
+    complete_data.kickoff_time = pd.to_datetime(complete_data.kickoff_time)
+    complete_data = complete_data.sort_values(by=['name', 'kickoff_time'],
+                                              ascending=True)
+    complete_data.reset_index(drop=True, inplace=True)
+    complete_data['kickoff_date'] = complete_data['kickoff_time']\
+                                    .apply(lambda d: d.date())
+    complete_data['kickoff_time'] = complete_data['kickoff_time']\
+                                    .apply(lambda d: d.time())
+
+    complete_data.reset_index(drop = True)
 
     if return_missing_column_list:
         return complete_data, missing_columns
