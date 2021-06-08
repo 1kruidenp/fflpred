@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 from merge_years.import_data import get_full_data
 
-def moving_a( points = 'total_points', days = 3):
+def mov_a_error(points = 'total_points', days = 3):
     '''
     Adds a "moving_a" columns to the dataframe inputed.
     How it works :
@@ -30,13 +30,6 @@ def moving_a( points = 'total_points', days = 3):
     
     #3
     output = pd.concat(players_df_with_ma)
+    output['error'] = abs(output.moving_a - output.total_points)
     return output
-
-def baseline_abs_error():
-    '''
-    return the error from the prediciton of the baseline model
-    '''
-    data = moving_a()
-    data['error'] = abs(data.pred_col - data.total_points)
-    return data
 
