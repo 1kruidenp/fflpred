@@ -1,4 +1,6 @@
 import pandas as pd
+import numpy as np
+import time
 
 
 def get_full_data(raw_data_path, return_missing_column_list=False):
@@ -74,7 +76,13 @@ def get_full_data(raw_data_path, return_missing_column_list=False):
     complete_data['GW'] = complete_data['GW'].apply(correct_2020)
 
     # Match player position
-    complete_data = match_position(complete_data, raw_data_path)
+    complete_data, players_raw_seasons = match_position(complete_data, raw_data_path)
+
+    # Add dreamteam count for each player for the last season
+    complete_data = add_dreamteam_count(complete_data, players_raw_seasons)
+
+    # Add team name for last two years to dataframe
+    complete_data = add_team(complete_data, players_raw_seasons, raw_data_path)
 
     # Sort ascending by player name and kickoff-date and separate kickoff-date and -time
     complete_data = sort_kickoff(complete_data)
@@ -95,18 +103,18 @@ def match_position(df, raw_data_path):
     """ Function to match player positions to the full dataframe """
 
     # Import data about player positions
-    raw21 = pd.read_csv(raw_data_path + '/2020-21/players_raw.csv',
+    players_raw21 = pd.read_csv(raw_data_path + '/2020-21/players_raw.csv',
                         encoding='utf_8')
-    raw20 = pd.read_csv(raw_data_path + '/2019-20/players_raw.csv',
+    players_raw20 = pd.read_csv(raw_data_path + '/2019-20/players_raw.csv',
                         encoding='utf_8')
-    raw19 = pd.read_csv(raw_data_path + '/2018-19/players_raw.csv',
+    players_raw19 = pd.read_csv(raw_data_path + '/2018-19/players_raw.csv',
                         encoding='utf-8')
-    raw18 = pd.read_csv(raw_data_path + '/2017-18/players_raw.csv',
+    players_raw18 = pd.read_csv(raw_data_path + '/2017-18/players_raw.csv',
                         encoding='utf-8')
-    raw17 = pd.read_csv(raw_data_path + '/2016-17/players_raw.csv',
+    players_raw17 = pd.read_csv(raw_data_path + '/2016-17/players_raw.csv',
                         encoding='utf-8')
 
-    raw_seasons = [raw17, raw18, raw19, raw20, raw21]
+    players_raw_seasons = [players_raw17, players_raw18, players_raw19, players_raw20, players_raw21]
 
     position_by_name = {  #Dictionary to map element_type to position
         1: 'GK',
@@ -115,7 +123,7 @@ def match_position(df, raw_data_path):
         4: 'FWD'
     }
 
-    for season in raw_seasons:  #Iterate through the different raw files
+    for season in players_raw_seasons:  #Iterate through the different raw files
 
         positions = map(lambda num: position_by_name[num],
                         season['element_type'])  #Map the positions
@@ -131,33 +139,33 @@ def match_position(df, raw_data_path):
     #Change the position of the GK Danny Ward to MID so that we have duplicates that we can drop
     #We will change the position after dropping,
     #IMPORTANT DO NOT REMOVE THIS STEP WITHOUT REMOVING THE STEP OF CHANGING THE POSITION BACK AND VICE VERSA
-    for i, row in raw19.iterrows():
+    for i, row in players_raw19.iterrows():
         if row['name'] == 'Danny Ward' and row['position'] == 'GK':
-            raw19['position'].at[i] = 'MID'
+            players_raw19['position'].at[i] = 'MID'
 
     #Here we split the data frame into the seasons and join the raw positions on the name
     df17 = df.loc[df['season'] == 17].copy()
-    playerpositions = raw17[['name', 'position']]
+    playerpositions = players_raw17[['name', 'position']]
     playerpositions.set_index('name', drop=True, inplace=True)
     df17 = df17.join(playerpositions, on=['name'])
 
     df18 = df.loc[df['season'] == 18].copy()
-    playerpositions = raw18[['name', 'position']]
+    playerpositions = players_raw18[['name', 'position']]
     playerpositions.set_index('name', drop=True, inplace=True)
     df18 = df18.join(playerpositions, on=['name'])
 
     df19 = df.loc[df['season'] == 19].copy()
-    playerpositions = raw19[['name', 'position']]
+    playerpositions = players_raw19[['name', 'position']]
     playerpositions.set_index('name', drop=True, inplace=True)
     df19 = df19.join(playerpositions, on=['name'])
 
     df20 = df.loc[df['season'] == 20].copy()
-    playerpositions = raw20[['name', 'position']]
+    playerpositions = players_raw20[['name', 'position']]
     playerpositions.set_index('name', drop=True, inplace=True)
     df20 = df20.join(playerpositions, on=['name'])
 
     df21 = df.loc[df['season'] == 21].copy()
-    playerpositions = raw21[['name', 'position']]
+    playerpositions = players_raw21[['name', 'position']]
     playerpositions.set_index('name', drop=True, inplace=True)
     df21 = df21.join(playerpositions, on=['name'])
 
@@ -172,7 +180,8 @@ def match_position(df, raw_data_path):
         if row['name'] == 'danny ward' and row['element'] == 105:
             complete_data['position'].at[i] = 'GK'
 
-    return complete_data
+    return complete_data, players_raw_seasons
+
 
 def sort_kickoff(df):
     """Turn kickoff date into datetime, sort dataframe by name and kickoff date"""
@@ -190,7 +199,80 @@ def sort_kickoff(df):
     return df
 
 
+def create_dreamteam_count_yearly(player, raw_list):
+    """Create the average dreamteam count for an individual player"""
+    num_seasons = 0
+    yearly_dreamteam_count = 0
+    for i, raw in enumerate(raw_list):
+        if i == len(raw_list) - 1:
+            break
+        if player in raw['name'].values:
+            num_seasons += 1
+            yearly_dreamteam_count += raw[['dreamteam_count']][raw.name == player].values[0][0]
+    if num_seasons == 0:
+        return np.nan
+    return yearly_dreamteam_count / num_seasons
+
+def add_dreamteam_count(df, raw_seasons):
+    """Add the average number of appearances in the dream team prior to the current season as feature in season 2021"""
+    df17 = df.loc[df['season'] == 17].copy()
+    df18 = df.loc[df['season'] == 18].copy()
+    df19 = df.loc[df['season'] == 19].copy()
+    df20 = df.loc[df['season'] == 20].copy()
+    df21 = df.loc[df['season'] == 21].copy()
+
+    dreamteam_count_yearly_average = []
+
+    for _, row in df21.iterrows():
+        dreamteam_count_yearly_average.append(create_dreamteam_count_yearly(row['name'], raw_seasons))
+    df21['dreamteam_yearly_average'] = dreamteam_count_yearly_average
+
+    complete_data = pd.concat([df17, df18, df19, df20, df21])
+
+    return complete_data
+
+def add_team(df, players_raw_seasons, raw_data_path):
+    teams_raw_20 = pd.read_csv(raw_data_path + '/2019-20/teams.csv')
+    teams_raw_21 = pd.read_csv(raw_data_path + '/2020-21/teams.csv')
+
+    [players_raw17, players_raw18, players_raw19, players_raw20, players_raw21] = players_raw_seasons
+
+    df17 = df.loc[df['season'] == 17].copy()
+
+    df18 = df.loc[df['season'] == 18].copy()
+
+    df19 = df.loc[df['season'] == 19].copy()
+
+    df20 = df.loc[df['season'] == 20].copy()
+    abc = players_raw20[['name', 'team']]
+    abc.set_index('name', drop=True, inplace=True)
+    df20 = df20.join(abc, on=['name'])
+    df20.rename(columns={'team': 'team_id'}, inplace=True)
+
+    xyz = teams_raw_20[['id', 'name']].copy()
+    xyz.rename(columns={'name': 'team_name', 'id': 'team_id'}, inplace=True)
+    xyz.set_index('team_id', drop=True, inplace=True)
+    df20 = df20.join(xyz, on=['team_id'])
+
+    df21 = df.loc[df['season'] == 21].copy()
+    abc = players_raw21[['name', 'team']]
+    abc.set_index('name', drop=True, inplace=True)
+    df21 = df21.join(abc, on=['name'])
+    df21.rename(columns={'team': 'team_id'}, inplace=True)
+
+    xyz_2 = teams_raw_21[['id', 'name']].copy()
+    xyz_2.rename(columns={'name': 'team_name', 'id': 'team_id'}, inplace=True)
+    xyz_2.set_index('team_id', drop=True, inplace=True)
+    df21 = df21.join(xyz_2, on=['team_id'])
+
+    complete_data = pd.concat([df17, df18, df19, df20, df21])
+
+    return complete_data
+
 if __name__=="__main__":
+    start = time.time()
     df, missing_columns = get_full_data('../raw_data', return_missing_column_list=True)
     print(df.head(5))
     print(missing_columns)
+    end = time.time()
+    print(end-start)
