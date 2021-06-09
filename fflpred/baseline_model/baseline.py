@@ -34,7 +34,6 @@ def mov_a_error(points = 'total_points', days = 3):
     return output
 
 
-
 def predict_next(player):
     '''
     baseline prediction of total_points for a player's next game (not played yet)
