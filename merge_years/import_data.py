@@ -84,6 +84,12 @@ def get_full_data(raw_data_path, return_missing_column_list=False):
     # Add team name for last two years to dataframe
     complete_data = add_team(complete_data, players_raw_seasons, raw_data_path)
 
+    # Add opponent strength
+    complete_data = add_opponent_strength(complete_data)
+
+    # Add own team strength
+    complete_data = add_team_strength(complete_data)
+
     # Sort ascending by player name and kickoff-date and separate kickoff-date and -time
     complete_data = sort_kickoff(complete_data)
 
@@ -268,6 +274,249 @@ def add_team(df, players_raw_seasons, raw_data_path):
     complete_data = pd.concat([df17, df18, df19, df20, df21])
 
     return complete_data
+
+def add_opponent_strength(df):
+    team_playing_home_20 = {
+        1: 1180,
+        2: 1020,
+        3: 1020,
+        4: 1050,
+        5: 1110,
+        6: 1220,
+        7: 1130,
+        8: 1100,
+        9: 1210,
+        10: 1340,
+        11: 1330,
+        12: 1220,
+        13: 1090,
+        14: 980,
+        15: 1180,
+        16: 1150,
+        17: 1180,
+        18: 1030,
+        19: 1040,
+        20: 1230
+    }
+
+    team_playing_away_20 = {
+        1: 1240,
+        2: 1050,
+        3: 1020,
+        4: 1010,
+        5: 1180,
+        6: 1230,
+        7: 1120,
+        8: 1240,
+        9: 1160,
+        10: 1350,
+        11: 1340,
+        12: 1300,
+        13: 1100,
+        14: 1020,
+        15: 1200,
+        16: 1040,
+        17: 1240,
+        18: 1140,
+        19: 1030,
+        20: 1190
+    }
+
+    team_playing_home_21 = {
+        1: 1200,
+        2: 1100,
+        3: 1130,
+        4: 1060,
+        5: 1250,
+        6: 1090,
+        7: 1250,
+        8: 1090,
+        9: 1240,
+        10: 1160,
+        11: 1250,
+        12: 1340,
+        13: 1250,
+        14: 1050,
+        15: 1000,
+        16: 1060,
+        17: 1190,
+        18: 1050,
+        19: 1230,
+        20: 1080
+    }
+
+    team_playing_away_21 = {
+        1: 1250,
+        2: 1160,
+        3: 1130,
+        4: 1070,
+        5: 1280,
+        6: 1110,
+        7: 1130,
+        8: 1100,
+        9: 1260,
+        10: 1170,
+        11: 1210,
+        12: 1360,
+        13: 1320,
+        14: 1070,
+        15: 1040,
+        16: 1100,
+        17: 1250,
+        18: 1040,
+        19: 1260,
+        20: 1110
+    }
+
+    df17 = df.loc[df['season'] == 17].copy()
+
+    df18 = df.loc[df['season'] == 18].copy()
+
+    df19 = df.loc[df['season'] == 19].copy()
+
+    df20 = df.loc[df['season'] == 20].copy()
+    level = []
+    for _, row in df20.iterrows():
+        if row.was_home == True:
+            level.append(team_playing_away_20[row['opponent_team']])
+        else:
+            level.append(team_playing_home_20[row['opponent_team']])
+    df20['opponent_level'] = level
+
+    df21 = df.loc[df['season'] == 21].copy()
+    level = []
+    for _, row in df21.iterrows():
+        if row.was_home == True:
+            level.append(team_playing_away_21[row['opponent_team']])
+        else:
+            level.append(team_playing_home_21[row['opponent_team']])
+    df21['opponent_level'] = level
+
+    complete_data = pd.concat([df17, df18, df19, df20, df21])
+
+    return complete_data
+
+def add_team_strength(df):
+    team_playing_home_20 = {
+        1: 1180,
+        2: 1020,
+        3: 1020,
+        4: 1050,
+        5: 1110,
+        6: 1220,
+        7: 1130,
+        8: 1100,
+        9: 1210,
+        10: 1340,
+        11: 1330,
+        12: 1220,
+        13: 1090,
+        14: 980,
+        15: 1180,
+        16: 1150,
+        17: 1180,
+        18: 1030,
+        19: 1040,
+        20: 1230
+    }
+
+    team_playing_away_20 = {
+        1: 1240,
+        2: 1050,
+        3: 1020,
+        4: 1010,
+        5: 1180,
+        6: 1230,
+        7: 1120,
+        8: 1240,
+        9: 1160,
+        10: 1350,
+        11: 1340,
+        12: 1300,
+        13: 1100,
+        14: 1020,
+        15: 1200,
+        16: 1040,
+        17: 1240,
+        18: 1140,
+        19: 1030,
+        20: 1190
+    }
+
+    team_playing_home_21 = {
+        1: 1200,
+        2: 1100,
+        3: 1130,
+        4: 1060,
+        5: 1250,
+        6: 1090,
+        7: 1250,
+        8: 1090,
+        9: 1240,
+        10: 1160,
+        11: 1250,
+        12: 1340,
+        13: 1250,
+        14: 1050,
+        15: 1000,
+        16: 1060,
+        17: 1190,
+        18: 1050,
+        19: 1230,
+        20: 1080
+    }
+
+    team_playing_away_21 = {
+        1: 1250,
+        2: 1160,
+        3: 1130,
+        4: 1070,
+        5: 1280,
+        6: 1110,
+        7: 1130,
+        8: 1100,
+        9: 1260,
+        10: 1170,
+        11: 1210,
+        12: 1360,
+        13: 1320,
+        14: 1070,
+        15: 1040,
+        16: 1100,
+        17: 1250,
+        18: 1040,
+        19: 1260,
+        20: 1110
+    }
+
+    df17 = df.loc[df['season'] == 17].copy()
+
+    df18 = df.loc[df['season'] == 18].copy()
+
+    df19 = df.loc[df['season'] == 19].copy()
+
+    df20 = df.loc[df['season'] == 20].copy()
+    level = []
+    for _, row in df20.iterrows():
+        if row.was_home == False:
+            level.append(team_playing_away_20[row['team_id']])
+        else:
+            level.append(team_playing_home_20[row['team_id']])
+    df20['team_level'] = level
+
+    df21 = df.loc[df['season'] == 21].copy()
+    level = []
+    for _, row in df21.iterrows():
+        if row.was_home == False:
+            level.append(team_playing_away_21[row['team_id']])
+        else:
+            level.append(team_playing_home_21[row['team_id']])
+    df21['team_level'] = level
+
+    complete_data = pd.concat([df17, df18, df19, df20, df21])
+
+    return complete_data
+
 
 if __name__=="__main__":
     start = time.time()
