@@ -75,7 +75,7 @@ create_bucket:
 
 #Uploading the dataset
 # path to the file we want to upload to GCP
-LOCAL_PATH="FFLPRED/final_model/predictions.csv"
+LOCAL_PATH="fflpred/final_model/prediction.csv"
 
 # bucket directory in which to store the uploaded file
 BUCKET_FOLDER=predictions
