@@ -72,4 +72,16 @@ set_project:
 create_bucket:
 	@gsutil mb -l ${REGION} -p ${PROJECT_ID} gs://${BUCKET_NAME}
 
-LOCAL_PATH="XXX"
+
+#Uploading the dataset
+# path to the file we want to upload to GCP
+LOCAL_PATH="FFLPRED/final_model/predictions.csv"
+
+# bucket directory in which to store the uploaded file
+BUCKET_FOLDER=predictions
+
+# name for the uploaded file inside of the bucket
+BUCKET_FILE_NAME=predictions
+
+upload_data:
+	@gsutil cp ${LOCAL_PATH} gs://${BUCKET_NAME}/${BUCKET_FOLDER}/${BUCKET_FILE_NAME}

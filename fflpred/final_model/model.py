@@ -10,8 +10,8 @@ from sklearn.ensemble import GradientBoostingRegressor
 from sklearn.metrics import mean_absolute_error
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.neighbors import KNeighborsRegressor
-    
-    
+
+
 def main():
 
     #Get the full data set from merge_years.import_data
