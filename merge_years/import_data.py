@@ -378,18 +378,18 @@ def add_opponent_strength(df):
     level = []
     for _, row in df20.iterrows():
         if row.was_home == True:
-            level.append(team_playing_home_20[row['opponent_team']])
-        else:
             level.append(team_playing_away_20[row['opponent_team']])
+        else:
+            level.append(team_playing_home_20[row['opponent_team']])
     df20['opponent_level'] = level
 
     df21 = df.loc[df['season'] == 21].copy()
     level = []
     for _, row in df21.iterrows():
         if row.was_home == True:
-            level.append(team_playing_home_21[row['opponent_team']])
-        else:
             level.append(team_playing_away_21[row['opponent_team']])
+        else:
+            level.append(team_playing_home_21[row['opponent_team']])
     df21['opponent_level'] = level
 
     complete_data = pd.concat([df17, df18, df19, df20, df21])
