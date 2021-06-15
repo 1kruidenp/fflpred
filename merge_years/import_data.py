@@ -498,19 +498,19 @@ def add_team_strength(df):
     df20 = df.loc[df['season'] == 20].copy()
     level = []
     for _, row in df20.iterrows():
-        if row.was_home == False:
-            level.append(team_playing_away_20[row['team_id']])
-        else:
+        if row.was_home == True:
             level.append(team_playing_home_20[row['team_id']])
+        else:
+            level.append(team_playing_away_20[row['team_id']])
     df20['team_level'] = level
 
     df21 = df.loc[df['season'] == 21].copy()
     level = []
     for _, row in df21.iterrows():
-        if row.was_home == False:
-            level.append(team_playing_away_21[row['team_id']])
-        else:
+        if row.was_home == True:
             level.append(team_playing_home_21[row['team_id']])
+        else:
+            level.append(team_playing_away_21[row['team_id']])
     df21['team_level'] = level
 
     complete_data = pd.concat([df17, df18, df19, df20, df21])
