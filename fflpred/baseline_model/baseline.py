@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 from merge_years.import_data import get_full_data
 
-def mov_a_error(points = 'total_points', days = 3):
+def mov_a_error(points = 'total_points', days = 2):
     '''
     Adds a "moving_a" columns to the dataframe inputed.
     How it works :
@@ -15,9 +15,13 @@ def mov_a_error(points = 'total_points', days = 3):
     # get full data
     df = get_full_data('../raw_data')
     
+    rolled_df = df.groupby('name')
+    rolled_df = rolled_df.rolling(days,closed='left').mean()
+    rolled_df.reset_index(inplace=True)
+    rolled_df['real_total_points'] = np.array(df['total_points'])
+    
     # 1
     players_list = df.name.unique()
-    
     #2
     players_df_with_ma = []
     for player in players_list:
