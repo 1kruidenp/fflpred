@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 from merge_years.import_data import get_full_data
 
-def mov_a_error(points = 'total_points', days = 2):
+def mov_a_error(days = 2):
     '''
     Adds a "moving_a" columns to the dataframe inputed.
     How it works :
@@ -16,26 +16,19 @@ def mov_a_error(points = 'total_points', days = 2):
     df = get_full_data('../raw_data')
     
     rolled_df = df.groupby('name')
-    rolled_df = rolled_df.rolling(days,closed='left').mean()
+    rolled_df["moving_a"] = rolled_df["total_points"].rolling(days,closed='left').mean()
     rolled_df.reset_index(inplace=True)
-    rolled_df['real_total_points'] = np.array(df['total_points'])
     
-    # 1
-    players_list = df.name.unique()
-    #2
-    players_df_with_ma = []
-    for player in players_list:
-        # 2.1
-        unique_player_df = df[df["name"] == player]
-        # 2.2
-        unique_player_df["moving_a"] = unique_player_df[f'{points}'].rolling(days,closed="left").mean()
-        #2.3
-        players_df_with_ma.append(unique_player_df)
+    #players_list = df.name.unique()
+    #players_df_with_ma = []
+    #for player in players_list:
+    #    unique_player_df = df[df["name"] == player]
+    #    unique_player_df["moving_a"] = unique_player_df['total_points'].rolling(days,closed="left").mean()
+    #    players_df_with_ma.append(unique_player_df)
+    #output = pd.concat(players_df_with_ma)
     
-    #3
-    output = pd.concat(players_df_with_ma)
-    output['error'] = abs(output.moving_a - output.total_points)
-    return output
+    rolled_df['error'] = abs(rolled_df.moving_a - rolled_df.total_points)
+    return rolled_df
 
 
 def predict_next(player):
