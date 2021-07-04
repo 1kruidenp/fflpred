@@ -1,0 +1,706 @@
+,name,GW,position,value,season,predicted_points,real_points
+72,aaron connolly,38,FWD,52,21,0.1970212,1
+148,aaron cresswell,38,DEF,57,21,3.643553,6
+262,aaron mooy,38,MID,50,21,0.22759311,0
+338,aaron ramsdale,38,GK,46,21,3.908362,9
+414,aaron wan-bissaka,38,DEF,58,21,3.9879289,0
+507,abdoulaye doucouré,38,MID,51,21,1.8375669,1
+545,aboubakar kamara,38,MID,48,21,0.17219475,0
+590,adam forshaw,38,MID,48,21,0.45012772,0
+700,adam lallana,38,MID,62,21,1.5243056,1
+852,adam webster,38,DEF,43,21,1.9138806,1
+928,adama traoré,38,MID,60,21,3.2055497,1
+981,ademipo odubeko,38,FWD,45,21,-0.037911505,0
+1054,ademola lookman,38,MID,47,21,1.95742,2
+1130,adrien silva,38,MID,44,21,0.17310624,0
+1168,adrián bernabé,38,MID,45,21,0.03935471,0
+1244,adrián san miguel del castillo,38,GK,42,21,0.050894424,0
+1320,ahmed el mohamady,38,DEF,42,21,0.93244994,0
+1358,ahmed el-sayed hegazy,38,DEF,41,21,0.21375181,0
+1435,ainsley maitland-niles,38,DEF,46,21,1.0680459,1
+1542,albian ajeti,38,FWD,55,21,0.26406586,0
+1580,aleksandar mitrović,38,FWD,55,21,0.22848551,0
+1658,alex iwobi,38,MID,59,21,0.30693638,1
+1734,alex mccarthy,38,GK,44,21,3.0901518,2
+1769,alex nicolao telles,38,DEF,53,21,0.4851846,2
+1845,alex oxlade-chamberlain,38,MID,63,21,2.482352,1
+1910,alexandre jankewitz,38,MID,45,21,0.13065466,0
+1987,alexandre lacazette,38,FWD,84,21,1.9037346,1
+2075,alexis mac allister,38,MID,53,21,1.8365254,2
+2132,alfie devine,38,MID,44,21,0.19133824,0
+2177,alfie mawson,38,DEF,43,21,0.26040336,0
+2286,alireza jahanbakhsh,38,MID,54,21,1.369008,1
+2362,alisson ramses becker,38,GK,60,21,3.9611197,8
+2400,allan marques loureiro,38,MID,52,21,2.4882987,2
+2476,allan saint-maximin,38,MID,52,21,2.194702,3
+2497,allan tchaptchet,38,DEF,40,21,0.14255199,0
+2535,alphonse areola,38,GK,45,21,3.0948973,0
+2554,amad diallo,38,MID,54,21,0.6151815,2
+2588,andi zeqiri,38,FWD,50,21,1.2981617,0
+2740,andreas christensen,38,DEF,47,21,0.26765242,0
+2816,andreas pereira,38,MID,48,21,0.24883369,0
+2838,andreas söndergaard,38,GK,40,21,0.06773956,0
+2914,andrew robertson,38,DEF,73,21,4.2235546,8
+3028,andriy yarmolenko,38,MID,55,21,0.5018143,0
+3104,andros townsend,38,MID,55,21,2.1871111,2
+3180,andré filipe tavares gomes,38,MID,53,21,0.76138395,0
+3218,andré-frank zambo anguissa,38,MID,44,21,2.0878093,1
+3294,andy carroll,38,FWD,51,21,0.3837233,0
+3390,andy lonergan,38,GK,40,21,-0.03623514,0
+3504,angelo ogbonna,38,DEF,47,21,3.2943187,6
+3580,angus gunn,38,GK,43,21,0.039334312,0
+3641,anthony driscoll-glennon,38,DEF,39,21,0.31199712,0
+3646,anthony elanga,38,MID,45,21,0.17627868,9
+3711,anthony gordon,38,MID,43,21,0.14625834,0
+3787,anthony knockaert,38,MID,50,21,0.21421577,0
+3812,anthony mancini,38,MID,44,21,0.35315275,0
+3888,anthony martial,38,FWD,86,21,1.2951523,0
+3926,antonee robinson,38,DEF,44,21,0.2745977,0
+4002,antonio rüdiger,38,DEF,47,21,2.5777383,1
+4024,antwoine hackford,38,FWD,44,21,0.031121224,0
+4100,anwar el ghazi,38,MID,52,21,3.1889212,9
+4255,arthur masuaku,38,DEF,43,21,0.17006171,0
+4369,ashley barnes,38,FWD,60,21,1.8535694,1
+4445,ashley westwood,38,MID,53,21,2.9946933,2
+4597,axel tuanzebe,38,DEF,41,21,1.4119568,2
+4674,aymeric laporte,38,DEF,60,21,0.5514063,0
+4776,ayoze pérez,38,MID,60,21,2.427146,1
+4852,bailey peacock-farrell,38,GK,40,21,1.9015224,0
+4928,bamidele alli,38,MID,74,21,3.5041647,2
+4966,barry douglas,38,DEF,38,21,0.1419947,0
+5111,ben davies,38,DEF,45,21,0.30134636,0
+5112,ben davies,38,DEF,45,21,0.25884056,0
+5113,ben davies,38,DEF,47,21,0.29382083,0
+5114,ben davies,38,DEF,47,21,0.24390537,0
+5228,ben gibson,38,DEF,39,21,0.31230724,0
+5300,ben godfrey,38,DEF,51,21,2.6381602,0
+5376,ben johnson,38,DEF,39,21,0.12269716,0
+5452,ben mee,38,DEF,47,21,3.3874402,0
+5528,ben osborn,38,MID,47,21,2.4820893,3
+5566,ben white,38,DEF,45,21,2.1746812,1
+5571,ben woodburn,38,MID,45,21,0.2957645,0
+5677,benjamin chilwell,38,DEF,59,21,3.556148,8
+5754,benjamin mendy,38,DEF,59,21,1.1194342,0
+5868,bernard anício caldeira duarte,38,MID,57,21,0.9211636,1
+5991,bernardo fernandes da silva junior,38,DEF,39,21,0.14749658,0
+6068,bernardo mota veiga de carvalho e silva,38,MID,74,21,3.116952,0
+6145,bernd leno,38,GK,50,21,3.5931768,7
+6182,bertrand traoré,38,MID,58,21,2.3878677,13
+6255,billy gilmour,38,MID,43,21,1.0716926,0
+6260,billy koumetio,38,DEF,40,21,0.13369295,0
+6336,billy sharp,38,FWD,55,21,0.33973193,0
+6450,bjorn engels,38,DEF,44,21,0.07804631,0
+6488,bobby decordova-reid,38,FWD,53,21,3.8276353,2
+6535,bobby thomas,38,DEF,39,21,0.31304342,0
+6637,brandon pierrick,38,MID,43,21,0.16114774,0
+6707,brandon williams,38,DEF,42,21,0.28404027,2
+6744,branislav ivanovic,38,DEF,44,21,0.24505804,0
+6798,bruno andré cavaco jordao,38,MID,43,21,0.26786572,0
+6850,bruno miguel borges fernandes,38,MID,113,21,6.270658,0
+6923,bukayo saka,38,MID,51,21,2.1319232,1
+6927,caleb taylor,38,DEF,40,21,0.20842646,0
+6948,caleb watts,38,MID,45,21,0.13071926,0
+7024,callum hudson-odoi,38,MID,57,21,1.7766066,0
+7100,callum robinson,38,FWD,52,21,0.14622937,2
+7214,callum wilson,38,FWD,65,21,0.40636456,0
+7291,calum chambers,38,DEF,45,21,2.158025,11
+7329,cameron carter-vickers,38,DEF,39,21,0.11806576,0
+7401,caoimhin kelleher,38,GK,45,21,0.10253669,0
+7512,carlos vinicius alves morais,38,FWD,69,21,0.5313228,0
+7528,carney chukwuemeka,38,MID,45,21,0.31774014,1
+7566,cedric kipre,38,DEF,43,21,0.23093073,0
+7602,cengiz ünder,38,MID,57,21,0.37215477,0
+7678,cenk tosun,38,FWD,60,21,0.53807926,0
+7754,charlie austin,38,FWD,51,21,0.121950224,0
+7776,charlie cresswell,38,DEF,40,21,0.16813964,0
+7890,charlie taylor,38,DEF,44,21,2.7132235,2
+7966,che adams,38,FWD,57,21,2.43925,0
+7988,cheikh diaby,38,FWD,45,21,0.06609471,0
+8064,cheikhou kouyaté,38,MID,48,21,1.7482605,2
+8140,chris basham,38,DEF,46,21,3.2276685,5
+8254,chris smalling,38,DEF,49,21,0.41685587,0
+8330,chris wood,38,FWD,66,21,3.9783013,2
+8406,christian atsu,38,MID,52,21,0.31762087,0
+8482,christian benteke,38,FWD,55,21,2.486316,0
+8596,christian fuchs,38,DEF,45,21,0.19791418,0
+8657,christian marques,38,DEF,39,21,0.14185005,0
+8733,christian pulisic,38,MID,83,21,4.768044,5
+8796,christian walton,38,GK,40,21,-0.0016853064,0
+8910,ciaran clark,38,DEF,45,21,0.30147755,0
+8987,claudio bravo,38,GK,45,21,0.028732881,0
+9005,claudio gomes,38,MID,45,21,0.039359212,0
+9010,cody drameh,38,DEF,40,21,0.16815075,0
+9055,cole palmer,38,MID,44,21,0.026098937,0
+9131,connor wickham,38,FWD,44,21,0.08661117,0
+9207,conor coady,38,DEF,49,21,2.1109188,1
+9225,conor coventry,38,MID,45,21,0.20621009,0
+9261,conor gallagher,38,MID,55,21,2.4529548,1
+9337,conor hourihane,38,MID,59,21,0.35215014,0
+9375,conor townsend,38,DEF,44,21,2.0377467,1
+9485,craig dawson,38,DEF,45,21,3.0435352,6
+9491,crysencio summerville,38,MID,44,21,0.3304627,0
+9552,curtis jones,38,MID,44,21,1.0556768,0
+9590,cyrus christie,38,DEF,42,21,0.24742134,0
+9667,cédric soares,38,DEF,46,21,0.23913357,0
+9743,césar azpilicueta,38,DEF,58,21,3.0898156,-2
+9820,dale stephens,38,MID,42,21,0.30854797,0
+9896,dan burn,38,DEF,42,21,2.2415931,1
+9951,dane scarlett,38,FWD,45,21,0.17448415,0
+10028,daniel amartey,38,DEF,39,21,0.26313245,0
+10080,daniel castelo podence,38,MID,53,21,0.37641793,0
+10157,daniel ceballos fernández,38,MID,47,21,0.3141022,0
+10271,daniel james,38,MID,62,21,0.60494924,5
+10275,daniel jebbison,38,FWD,45,21,3.2231565,2
+10303,daniel langley,38,GK,39,21,-0.06622313,0
+10371,daniel n'lundulu,38,FWD,45,21,0.14512552,0
+10486,danny ings,38,FWD,84,21,3.2089202,2
+10562,danny rose,38,DEF,47,21,0.17146635,0
+10638,danny ward,38,GK,43,21,0.11940499,0
+10709,danny welbeck,38,FWD,55,21,2.2474616,0
+10747,dara o'shea,38,DEF,42,21,0.22102052,0
+10785,darnell furlong,38,DEF,45,21,2.3283184,1
+10843,darren randolph,38,GK,43,21,2.329997,0
+10995,david button,38,GK,39,21,-0.04742001,0
+11071,david de gea,38,GK,53,21,2.345681,0
+11148,david luiz moreira marinho,38,DEF,54,21,0.48892552,0
+11217,david martin,38,GK,39,21,0.007610038,0
+11293,david mcgoldrick,38,FWD,52,21,3.28884,9
+11446,davinson sánchez,38,DEF,52,21,0.2145884,1
+11522,davy pröpper,38,MID,47,21,0.20882401,0
+11598,dean henderson,38,GK,52,21,2.7746508,2
+11674,deandre yedlin,38,DEF,43,21,0.2908314,0
+11750,declan rice,38,MID,47,21,3.6122785,8
+11864,demarai gray,38,MID,51,21,0.28490216,0
+11902,denis odoi,38,DEF,42,21,0.24726413,0
+11984,dennis praet,38,MID,52,21,0.2996955,0
+12058,diego llorente,38,DEF,44,21,2.951706,0
+12206,diogo jota,38,MID,69,21,1.3488035,1
+12282,divock origi,38,FWD,51,21,0.14065649,0
+12434,dominic calvert-lewin,38,FWD,75,21,4.6081066,2
+12510,donny van de beek,38,MID,66,21,0.87893856,5
+12586,douglas luiz soares de paulo,38,MID,48,21,1.4483713,0
+12655,dwight gayle,38,FWD,59,21,1.1651865,1
+12731,dwight mcneil,38,MID,57,21,3.2500134,2
+12769,eberechi eze,38,MID,58,21,1.792117,0
+12846,ederson santana de moraes,38,GK,61,21,2.7481053,12
+12881,edinson cavani,38,FWD,80,21,5.1207075,0
+12917,edouard mendy,38,GK,53,21,1.7165506,1
+12994,edward nketiah,38,FWD,53,21,0.21587269,0
+13069,elia caprile,38,GK,40,21,0.021868005,0
+13098,elliot anderson,38,MID,45,21,0.18323596,0
+13132,ellis simms,38,FWD,45,21,0.3309871,0
+13208,emerson palmieri dos santos,38,DEF,47,21,0.30895966,0
+13284,emil krafth,38,DEF,42,21,2.3120015,6
+13345,emile smith rowe,38,MID,42,21,2.9780796,3
+13461,emiliano martínez,38,GK,53,21,3.399737,3
+13537,enda stevens,38,DEF,50,21,3.2889888,11
+13613,eric bailly,38,DEF,48,21,1.3728023,2
+13689,eric dier,38,DEF,46,21,2.1858811,0
+13761,eric garcia,38,DEF,47,21,2.7250104,0
+13837,erik lamela,38,MID,57,21,0.30592346,0
+13913,erik pieters,38,DEF,43,21,0.41354126,0
+13989,ethan ampadu,38,DEF,43,21,0.14684579,0
+14097,ezgjan alioski,38,DEF,44,21,3.7304409,2
+14173,ezri konsa ngoyo,38,DEF,46,21,1.9481286,2
+14249,fabian delph,38,MID,48,21,0.16237931,0
+14325,fabian schär,38,DEF,48,21,0.32753128,7
+14330,fabio carvalho,38,MID,45,21,3.4514434,2
+14406,fabio henrique tavares,38,MID,54,21,3.117297,3
+14444,fabio silva,38,FWD,52,21,3.3585691,5
+14520,fabián balbuena,38,DEF,41,21,0.13884331,0
+14558,fabricio agosto ramírez,38,GK,39,21,0.058835074,0
+14593,facundo pellistri,38,MID,52,21,0.3455125,0
+14630,faustino anjorin,38,MID,45,21,0.08347611,0
+14706,federico fernández,38,DEF,47,21,2.7724798,6
+14782,felipe anderson pereira gomes,38,MID,61,21,0.64089364,0
+14808,felix nmecha,38,MID,45,21,0.03935729,0
+14887,fernando luiz rosa,38,DEF,54,21,1.1494925,15
+14925,fernando marçal,38,DEF,47,21,0.26152045,1
+14963,ferran torres,38,MID,70,21,3.4540012,1
+15039,fikayo tomori,38,DEF,47,21,0.3090287,0
+15094,filip benkovic,38,DEF,43,21,0.17998835,0
+15129,filip krovinovic,38,MID,49,21,0.3126019,0
+15205,florian lejeune,38,DEF,43,21,0.29064018,0
+15281,florin andone,38,FWD,48,21,0.158157,0
+15319,francisco casilla cortés,38,GK,41,21,2.299168,3
+15372,frankie maguire,38,MID,44,21,0.016165897,0
+15448,fraser forster,38,GK,40,21,-0.003752336,0
+15562,frederico rodrigues de paula santos,38,MID,53,21,2.3222208,0
+15583,frederik alves,38,DEF,40,21,0.12732777,0
+15659,frédéric guilbert,38,DEF,43,21,0.07357861,0
+15736,gabriel fernando de jesus,38,FWD,91,21,4.0423164,6
+15774,gabriel magalhães,38,DEF,49,21,3.258955,6
+15851,gabriel teodoro martinelli silva,38,MID,49,21,2.04245,1
+15863,gaetano berardi,38,DEF,40,21,0.7486519,7
+15899,gareth bale,38,MID,92,21,3.0330067,13
+15975,gary cahill,38,DEF,45,21,1.6917545,1
+16092,gedson carvalho fernandes,38,MID,47,21,0.20916313,0
+16168,george baldock,38,DEF,49,21,2.0494106,5
+16285,georginio wijnaldum,38,MID,53,21,2.0696707,3
+16399,giovani lo celso,38,MID,69,21,1.6946716,0
+16491,glenn murray,38,FWD,48,21,0.15848695,0
+16585,grady diangana,38,MID,50,21,1.3811383,1
+16662,granit xhaka,38,MID,52,21,0.8434332,3
+16776,gylfi sigurdsson,38,MID,68,21,2.7261431,-1
+16814,hakim ziyech,38,MID,79,21,1.7882222,1
+16852,hal robson-kanu,38,FWD,52,21,3.1667638,8
+16928,hamza choudhury,38,MID,46,21,0.49103385,0
+16967,harrison reed,38,MID,44,21,1.6573863,0
+17045,harry kane,38,FWD,119,21,4.9941573,10
+17099,harry lewis,38,GK,40,21,0.008433595,0
+17175,harry maguire,38,DEF,55,21,0.3137238,0
+17189,harry tyrer,38,GK,40,21,0.18538143,0
+17265,harry wilson,38,MID,51,21,0.4511807,0
+17341,harry winks,38,MID,51,21,1.4762731,1
+17417,harvey barnes,38,MID,66,21,0.55811447,0
+17486,harvey elliott,38,MID,43,21,0.2342571,0
+17571,henri lansbury,38,MID,43,21,0.025016427,0
+17686,heung-min son,38,MID,96,21,4.62473,5
+17742,hugo bueno,38,DEF,40,21,0.15652205,0
+17818,hugo lloris,38,GK,56,21,3.3690345,2
+17895,héctor bellerín,38,DEF,50,21,1.0012568,0
+17971,hélder wander sousa de azevedo e costa,38,MID,50,21,0.50374824,0
+18009,ian carlo poveda-ocampo,38,MID,42,21,0.50824094,0
+18081,ibrahima diallo,38,MID,45,21,0.9558914,1
+18152,iliman ndiaye,38,MID,45,21,0.030626073,0
+18229,ilkay gündogan,38,MID,55,21,2.836416,0
+18267,illan meslier,38,GK,48,21,2.6831458,0
+18322,indiana vassilev,38,FWD,43,21,-0.0006390512,0
+18398,isaac hayden,38,MID,46,21,0.20918433,0
+18407,isaac price,38,MID,45,21,0.15146749,0
+18479,islam slimani,38,FWD,49,21,0.022182867,0
+18593,issa diop,38,DEF,43,21,0.35582548,1
+18669,ivan ricardo neves abreu cavaleiro,38,MID,53,21,3.2081609,2
+18702,jack butland,38,GK,45,21,1.3795791,0
+18816,jack cork,38,MID,50,21,2.5909777,2
+18892,jack grealish,38,MID,75,21,2.668652,2
+18930,jack harrison,38,MID,56,21,3.9721937,5
+18961,jack jenkins,38,MID,45,21,0.3658057,0
+19037,jack o'connell,38,DEF,47,21,0.22642298,0
+19089,jack robinson,38,DEF,42,21,2.8906894,6
+19258,jack stephens,38,DEF,46,21,1.8650892,0
+19334,jack wilshere,38,MID,49,21,0.3292498,0
+19418,jacob murphy,38,MID,49,21,2.2835581,3
+19455,jacob ramsey,38,MID,45,21,1.4356446,1
+19468,jaden philogene-bidace,38,MID,44,21,0.23038702,0
+19540,jairo riedewald,38,MID,44,21,0.4297499,1
+19567,jake cain,38,MID,45,21,0.29587787,0
+19643,jake livermore,38,MID,47,21,0.56162816,0
+19689,jake vokins,38,DEF,39,21,0.13673633,0
+19710,jakub moder,38,MID,50,21,2.0875447,2
+19723,jakub ojrzynski,38,GK,40,21,0.01739277,0
+19799,jamaal lascelles,38,DEF,42,21,0.2915451,0
+19814,jamal baptiste,38,DEF,40,21,0.12746608,0
+19890,jamal lewis,38,DEF,40,21,0.4522587,0
+19928,james bree,38,DEF,45,21,0.082857996,0
+20063,james garner,38,MID,44,21,0.15216772,0
+20139,james justin,38,DEF,48,21,0.23865928,0
+20215,james maddison,38,MID,72,21,2.1432498,2
+20291,james mcarthur,38,MID,52,21,0.26744372,0
+20367,james mccarthy,38,MID,43,21,1.6008521,2
+20443,james milner,38,MID,53,21,0.73462576,0
+20481,james rodríguez,38,MID,77,21,2.1441658,0
+20557,james tarkowski,38,DEF,53,21,3.3832018,2
+20633,james tomkins,38,DEF,44,21,0.89580506,1
+20666,james trafford,38,GK,40,21,-0.05825956,0
+20742,james ward-prowse,38,MID,59,21,2.3125784,2
+20780,jamie shackleton,38,MID,48,21,0.45011407,0
+20856,jamie vardy,38,FWD,102,21,4.67209,13
+20932,jan bednarek,38,DEF,47,21,0.22725102,0
+21046,jannik vestergaard,38,DEF,47,21,1.8434594,1
+21104,japhet tanganga,38,DEF,49,21,2.1729512,0
+21151,jarrad branthwaite,38,DEF,39,21,0.13062744,0
+21202,jarrod bowen,38,MID,58,21,2.0305173,6
+21240,jason steele,38,GK,39,21,-0.015322223,0
+21354,javier manquillo,38,DEF,42,21,0.28369755,0
+21430,jay rodriguez,38,FWD,57,21,1.7314465,1
+21468,jay-roy grot,38,MID,47,21,0.4245987,0
+21506,jayden bogle,38,DEF,43,21,1.5776185,0
+21542,jayson molumby,38,MID,45,21,0.18751687,0
+21580,jean michaël seri,38,MID,46,21,0.13667393,0
+21656,jean-philippe gbamin,38,MID,50,21,0.17164764,0
+21675,jean-philippe mateta,38,FWD,53,21,0.17970191,0
+21751,jed steer,38,GK,39,21,-0.024662659,0
+21827,jeff hendrick,38,MID,45,21,0.18415403,1
+21941,jeffrey schlupp,38,MID,53,21,1.9056661,1
+21962,jensen weir,38,MID,45,21,0.18747851,0
+22056,jesse lingard,38,MID,66,21,3.7901561,3
+22064,jesurun rak-sakyi,38,MID,45,21,0.16876541,0
+22187,jimmy dunne,38,DEF,38,21,0.29767057,1
+22221,joachim andersen,38,DEF,45,21,2.6077845,0
+22259,joe bryan,38,DEF,45,21,2.7102957,2
+22276,joe gelhardt,38,FWD,45,21,0.049609184,0
+22352,joe hart,38,GK,42,21,0.08365072,0
+22385,joe rodon,38,DEF,49,21,0.19749898,1
+22461,joel matip,38,DEF,54,21,0.46231234,0
+22488,joel mumbongo,38,FWD,45,21,0.11157246,0
+22564,joel ward,38,DEF,43,21,1.5162684,1
+22640,joelinton cássio apolinário de lira,38,FWD,57,21,2.6595454,0
+22716,johann berg gudmundsson,38,MID,54,21,2.6221097,2
+22792,john egan,38,DEF,47,21,3.3655856,6
+22868,john fleck,38,MID,56,21,3.5669456,2
+22944,john lundstram,38,MID,48,21,0.10404283,0
+23020,john mcginn,38,MID,55,21,2.1341958,1
+23096,john ruddy,38,GK,43,21,1.7822752,0
+23173,john stones,38,DEF,51,21,1.774138,6
+23251,jonas lössl,38,GK,43,21,0.22855027,0
+23327,jonathan castro otto,38,DEF,54,21,0.39083064,0
+23403,jonathan leko,38,MID,45,21,0.21605596,0
+23479,jonjo shelvey,38,MID,53,21,2.2258677,3
+23517,jonjoe kenny,38,DEF,43,21,0.16490753,0
+23593,jonny evans,38,DEF,56,21,0.40465844,0
+23669,jordan ayew,38,FWD,56,21,0.97449297,1
+23745,jordan henderson,38,MID,54,21,0.5249884,0
+23783,jordan hugill,38,FWD,55,21,0.26406586,0
+23859,jordan pickford,38,GK,48,21,3.2640462,2
+23897,jordan stevens,38,MID,43,21,0.2953316,0
+24018,jorge luiz frello filho,38,MID,47,21,3.0780773,0
+24153,joseph gomez,38,DEF,52,21,0.4033333,0
+24230,joseph willock,38,MID,49,21,5.5639477,8
+24274,josh benson,38,MID,44,21,0.35318387,0
+24326,josh brownhill,38,MID,49,21,3.3404834,1
+24343,josh maja,38,FWD,50,21,0.6805345,1
+24390,josh onomah,38,MID,46,21,1.2583768,2
+24428,josh sims,38,MID,43,21,0.09691724,0
+24485,joshua king,38,FWD,50,21,0.41201597,0
+24599,josé diogo dalot teixeira,38,DEF,48,21,0.3979627,0
+24751,josé ignacio peleteiro romallo,38,MID,59,21,0.35210294,0
+24789,josé izquierdo,38,MID,55,21,0.30589157,0
+24920,joão filipe iria santos moutinho,38,MID,51,21,2.836257,2
+25008,joão pedro cavaco cancelo,38,DEF,58,21,1.4450256,0
+25063,joão virgínia,38,GK,43,21,0.22856306,0
+25101,joël veltman,38,DEF,43,21,0.2576145,0
+25177,juan foyth,38,DEF,43,21,0.14214015,0
+25253,juan mata,38,MID,58,21,0.5059383,10
+25367,kai havertz,38,MID,83,21,2.8494096,1
+25386,kaine hayden,38,MID,45,21,0.055879533,0
+25424,kalvin phillips,38,MID,49,21,2.0810356,6
+25462,kamil grosicki,38,MID,52,21,0.39015365,0
+25500,kamil miazek,38,GK,40,21,0.021595404,0
+25576,karl darlow,38,GK,49,21,0.071658,0
+25610,karlan grant,38,FWD,56,21,0.85427874,1
+25642,karlo ziger,38,GK,40,21,0.08151303,0
+25718,kasper schmeichel,38,GK,54,21,3.449657,-2
+25787,kayne ramsay,38,DEF,40,21,0.14253764,0
+25816,kean bryan,38,DEF,39,21,0.09142706,0
+25892,keinan davis,38,FWD,42,21,0.19515017,0
+25968,kelechi iheanacho,38,FWD,62,21,3.3235855,2
+26023,kelland watts,38,DEF,39,21,0.26056126,0
+26099,kenneth zohore,38,FWD,48,21,0.09385389,0
+26175,kenny tete,38,DEF,43,21,1.8905815,0
+26251,kepa arrizabalaga,38,GK,47,21,2.2439415,0
+26365,kevin de bruyne,38,MID,118,21,1.8886652,13
+26441,kevin long,38,DEF,43,21,0.40971822,0
+26479,kevin mcdonald,38,MID,47,21,0.15412034,0
+26501,kgaogelo chauke,38,MID,44,21,0.11389479,0
+26548,ki-jana hoever,38,DEF,44,21,1.1433818,0
+26586,kieran gibbs,38,DEF,43,21,0.23095205,0
+26663,kieran tierney,38,DEF,52,21,3.5097108,6
+26816,konstantinos tsimikas,38,DEF,49,21,0.5204703,0
+26892,kortney hause,38,DEF,44,21,1.6243929,2
+26968,kurt zouma,38,DEF,53,21,2.5957124,0
+27006,kyle bartley,38,DEF,44,21,2.3012412,1
+27044,kyle edwards,38,MID,46,21,0.23258841,0
+27058,kyle john,38,DEF,40,21,0.1381641,0
+27135,kyle walker,38,DEF,61,21,2.1119876,6
+27211,kyle walker-peters,38,DEF,47,21,1.9187784,0
+27229,kyron gordon,38,DEF,40,21,0.102957875,0
+27344,leander dendoncker,38,MID,46,21,1.489001,0
+27420,leandro trossard,38,MID,55,21,2.6283252,1
+27487,lee grant,38,GK,40,21,-0.006483361,0
+27518,lee peltier,38,DEF,39,21,0.20339754,0
+27556,leif davis,38,DEF,38,21,0.13640589,0
+27624,leighton clarkson,38,MID,45,21,0.29587,0
+27738,leonardo campana,38,FWD,47,21,0.2846611,0
+27895,lewis dunk,38,DEF,48,21,0.62377024,1
+27956,lewis richards,38,DEF,40,21,0.15655088,0
+27989,lewis richardson,38,FWD,45,21,0.111774415,0
+28027,liam cooper,38,DEF,43,21,2.3647623,1
+28065,liam delap,38,FWD,42,21,-0.09552027,0
+28093,liam hughes,38,GK,40,21,0.017388836,0
+28245,lucas digne,38,DEF,62,21,2.8079681,0
+28321,lucas rodrigues moura da silva,38,MID,64,21,0.43645948,1
+28398,lucas torreira,38,MID,47,21,0.32454616,0
+28474,luka milivojevic,38,MID,56,21,0.3414865,0
+28575,lukasz fabianski,38,GK,50,21,2.2727957,9
+28651,luke ayling,38,DEF,44,21,3.5077348,2
+28700,luke cundle,38,MID,45,21,0.29278415,0
+28814,luke freeman,38,MID,50,21,0.16079842,0
+28838,luke mbete,38,DEF,40,21,0.09879841,0
+28914,luke shaw,38,DEF,55,21,3.5870776,0
+28955,luke thomas,38,DEF,41,21,2.2931538,0
+29031,lys mousset,38,FWD,58,21,0.45733166,0
+29069,léo bonatini,38,FWD,48,21,0.3023092,0
+29167,mace goodridge,38,MID,45,21,0.3899092,0
+29243,mahmoud ahmed ibrahim hassan,38,MID,52,21,0.19903487,0
+29319,mamadou sakho,38,DEF,44,21,0.13453497,0
+29395,manuel lanzini,38,MID,64,21,0.7093796,0
+29471,marc albrighton,38,MID,52,21,2.2721379,2
+29623,marcos alonso,38,DEF,56,21,0.59484416,0
+29699,marcos rojo,38,DEF,48,21,0.39798546,0
+29737,marcus bettinelli,38,GK,43,21,0.1337056,0
+29813,marcus rashford,38,MID,96,21,4.9968934,0
+29851,marek rodák,38,GK,43,21,0.13370277,1
+29927,mario lemina,38,MID,45,21,1.1681976,0
+30041,mark gillespie,38,GK,43,21,-0.01415278,0
+30117,mark noble,38,MID,45,21,0.20671737,1
+30269,martin dubravka,38,GK,48,21,3.557852,7
+30345,martin kelly,38,DEF,41,21,0.119154155,1
+30363,martin ødegaard,38,MID,56,21,2.3846126,6
+30439,martín montoya,38,DEF,45,21,0.17131259,0
+30515,marvelous nakamba,38,MID,43,21,1.0170978,1
+30591,mason greenwood,38,MID,73,21,4.266308,0
+30667,mason holgate,38,DEF,48,21,1.0427046,-1
+30743,mason mount,38,MID,73,21,4.5282683,2
+30819,matej vydra,38,FWD,48,21,2.2014186,1
+30895,mateo kovacic,38,MID,53,21,1.532392,1
+30932,mateusz bogusz,38,MID,43,21,0.29517817,0
+30970,mateusz klich,38,MID,52,21,2.510717,0
+31008,matheus pereira,38,MID,54,21,3.0413618,0
+31084,mathew ryan,38,GK,41,21,0.046980307,0
+31122,matija sarkic,38,GK,44,21,0.10824238,0
+31198,matt doherty,38,DEF,56,21,0.8913371,1
+31244,matt macey,38,GK,40,21,0.030345008,0
+31282,matt phillips,38,MID,51,21,2.2553232,2
+31358,matt ritchie,38,MID,49,21,1.7227566,9
+31434,matt targett,38,DEF,50,21,1.9245293,5
+31549,matteo guendouzi,38,MID,47,21,0.3245482,0
+31587,matthew cash,38,DEF,50,21,0.13579443,0
+31663,matthew clarke,38,DEF,44,21,0.16557033,0
+31735,matthew longstaff,38,MID,48,21,0.24694885,0
+31811,matthew lowton,38,DEF,44,21,3.1523733,2
+31895,matty james,38,MID,43,21,0.15134154,0
+31971,max kilman,38,DEF,38,21,1.1602954,0
+32009,max lowe,38,DEF,42,21,0.12711649,0
+32085,max meyer,38,MID,47,21,0.18842167,0
+32106,max sanders,38,MID,45,21,0.1875114,0
+32148,max thompson,38,FWD,45,21,0.11162856,0
+32186,maxime le marchand,38,DEF,41,21,0.23450328,0
+32280,mbaye diagne,38,FWD,60,21,0.4644763,0
+32332,mbwana samatta,38,FWD,59,21,0.20218144,0
+32368,meritan shabani,38,MID,44,21,0.28059706,0
+32445,mesut özil,38,MID,67,21,0.8238678,0
+32483,michael hector,38,DEF,41,21,0.23396859,0
+32559,michael keane,38,DEF,50,21,2.4178247,0
+32673,michael obafemi,38,FWD,46,21,0.15319578,1
+32745,michael verrips,38,GK,40,21,0.070232704,0
+32821,michail antonio,38,FWD,67,21,4.645926,2
+32838,michal karbownik,38,DEF,45,21,0.17126313,0
+32944,michy batshuayi,38,FWD,57,21,0.20793723,0
+33020,miguel almirón,38,MID,56,21,2.344341,3
+33028,miguel azeez,38,MID,45,21,0.26317805,0
+33165,mohamed naser el sayed elneny,38,MID,42,21,2.010622,0
+33241,mohamed salah,38,MID,129,21,6.5956683,6
+33279,mohammed salisu,38,DEF,43,21,1.7799599,0
+33355,moise kean,38,FWD,57,21,0.48338932,0
+33371,moisés caicedo,38,MID,50,21,0.22754394,0
+33447,morgan gibbs-white,38,MID,49,21,2.3054914,0
+33467,morgan sanson,38,MID,55,21,0.26441056,0
+33619,moussa djenepo,38,MID,54,21,1.4100231,0
+33695,moussa sissoko,38,MID,47,21,0.41593534,0
+33809,n'golo kanté,38,MID,49,21,1.314557,0
+33899,naby keita,38,MID,52,21,0.4756623,0
+34014,nampalys mendy,38,MID,42,21,0.13320713,2
+34090,nathan aké,38,DEF,54,21,1.8691267,0
+34100,nathan bishop,38,GK,40,21,-0.006610319,0
+34114,nathan broadhead,38,MID,45,21,0.15145688,0
+34152,nathan ferguson,38,DEF,38,21,0.10400982,0
+34252,nathan redmond,38,MID,64,21,2.1896818,2
+34299,nathan tella,38,MID,43,21,1.6675593,1
+34312,nathan trott,38,GK,40,21,0.024261251,0
+34384,nathaniel clyne,38,DEF,45,21,0.13985182,0
+34436,nathaniel phillips,38,DEF,42,21,3.2351134,6
+34512,neal maupay,38,FWD,58,21,0.36235482,0
+34572,neco williams,38,DEF,38,21,0.111985296,0
+34610,neeskens kebano,38,MID,47,21,0.15413469,0
+34686,neil taylor,38,DEF,42,21,0.06915215,0
+34762,nemanja matic,38,MID,47,21,0.49356002,2
+34784,niall huggins,38,FWD,45,21,0.049703702,0
+34860,nick pope,38,GK,55,21,0.20865266,0
+34937,nicolas pépé,38,MID,77,21,3.383884,16
+35014,nicolás otamendi,38,DEF,49,21,0.29056084,0
+35049,niels nkounkou,38,DEF,40,21,0.13830985,1
+35070,nigel lonwijk,38,DEF,39,21,0.14136685,0
+35134,nélson cabral semedo,38,DEF,51,21,1.9099867,8
+35185,odion ighalo,38,FWD,61,21,0.4081214,0
+35202,okay yokuslu,38,MID,45,21,1.5283664,2
+35237,ola aina,38,DEF,43,21,1.2907493,0
+35314,oleksandr zinchenko,38,DEF,55,21,1.8737248,6
+35352,oliver burke,38,MID,41,21,0.018100321,0
+35390,oliver casey,38,DEF,38,21,0.13737397,0
+35466,oliver mcburnie,38,FWD,56,21,0.37452245,0
+35542,oliver norwood,38,MID,45,21,2.4732423,3
+35618,oliver skipp,38,MID,44,21,0.19122331,0
+35694,olivier giroud,38,FWD,67,21,1.7162672,0
+35732,ollie watkins,38,FWD,63,21,2.8340821,2
+35770,oluwasemilogo adesewo ibidapo ajayi,38,DEF,48,21,2.404692,1
+35900,oriol romeu vidal,38,MID,45,21,0.13368669,1
+35957,oskar buur,38,DEF,39,21,0.14421737,0
+36039,owen otasowie,38,MID,45,21,0.29301816,0
+36056,ozan kabak,38,DEF,50,21,0.44556004,0
+36132,pablo fornals,38,MID,58,21,3.9000676,19
+36170,pablo hernández domínguez,38,MID,57,21,0.7051888,6
+36223,pablo marí,38,DEF,44,21,2.0902617,0
+36350,pascal groß,38,MID,58,21,2.3418427,2
+36388,pascal struijk,38,DEF,40,21,2.7630835,1
+36426,patrick bamford,38,FWD,66,21,4.2055907,6
+36485,patrick cutrone,38,FWD,59,21,0.485411,0
+36599,patrick van aanholt,38,DEF,54,21,0.22085646,1
+36675,paul dummett,38,DEF,44,21,2.3111532,8
+36751,paul pogba,38,MID,76,21,4.2269297,0
+36827,paulo gazzaniga,38,GK,43,21,0.09591974,0
+36903,pedro lomba neto,38,MID,55,21,0.4283747,0
+37000,percy tau,38,MID,49,21,1.0827677,0
+37076,phil bardsley,38,DEF,44,21,0.43512237,0
+37153,phil foden,38,MID,61,21,2.7015007,6
+37229,phil jagielka,38,DEF,39,21,0.094202876,1
+37305,phil jones,38,DEF,48,21,0.39796734,0
+37458,pierre-emerick aubameyang,38,MID,113,21,5.1904497,3
+37534,pierre-emile højbjerg,38,MID,49,21,2.122931,2
+37725,raheem sterling,38,MID,109,21,3.9743195,5
+37797,raphael dias belloli,38,MID,56,21,3.5944452,5
+37869,rayan ait nouri,38,DEF,50,21,1.2322712,0
+37945,raúl jiménez,38,FWD,81,21,1.0634291,0
+37966,reda khadra,38,MID,45,21,0.18746042,0
+37979,reece hannam,38,DEF,40,21,0.113944724,0
+38055,reece james,38,DEF,51,21,3.5093765,1
+38064,reece welch,38,DEF,40,21,0.1381548,0
+38141,reiss nelson,38,MID,51,21,0.42954922,0
+38179,rekeem harper,38,MID,43,21,0.18464355,0
+38255,rhian brewster,38,FWD,42,21,0.63216114,1
+38309,rhys williams,38,DEF,40,21,2.949023,6
+38385,ricardo domingos barbosa pereira,38,DEF,59,21,1.4073749,0
+38417,richard nartey,38,DEF,40,21,0.33400846,0
+38531,richarlison de andrade,38,FWD,77,21,3.30171,1
+38608,riyad mahrez,38,MID,81,21,3.218499,6
+38685,rob holding,38,DEF,43,21,3.0619059,7
+38761,robbie brady,38,MID,50,21,0.5520018,0
+38897,robert snodgrass,38,MID,56,21,0.47321868,0
+38929,robert sánchez,38,GK,45,21,2.7206633,2
+39005,roberto firmino,38,FWD,91,21,4.3897347,5
+39081,roberto jimenez gago,38,GK,45,21,0.105997935,0
+39157,robin koch,38,DEF,43,21,0.23126304,0
+39191,robin olsen,38,GK,45,21,0.2576596,0
+39268,rodrigo hernandez,38,MID,53,21,2.7750185,1
+39306,rodrigo moreno,38,FWD,57,21,3.7171767,8
+39382,rolando aarons,38,MID,48,21,0.24696368,0
+39458,romain saïss,38,DEF,49,21,1.3816353,1
+39496,romaine sawyers,38,MID,46,21,0.23262466,0
+39611,ross barkley,38,MID,58,21,0.3329479,0
+39687,ruben loftus-cheek,38,MID,59,21,1.0334722,1
+39763,rui pedro dos santos patrício,38,GK,53,21,1.7710466,1
+39777,ryan astley,38,DEF,40,21,0.13818002,0
+39853,ryan bennett,38,DEF,44,21,0.21580955,0
+39929,ryan bertrand,38,DEF,50,21,0.21299048,0
+39947,ryan finnigan,38,MID,45,21,0.13074322,0
+40023,ryan fraser,38,MID,56,21,0.39416516,0
+40099,ryan fredericks,38,DEF,42,21,0.15210414,0
+40152,ryan inniss,38,DEF,40,21,0.11393769,0
+40228,ryan sessegnon,38,DEF,47,21,0.17145193,0
+40304,rúben diogo da silva neves,38,MID,51,21,1.583961,2
+40380,rúben gonçalo silva nascimento vinagre,38,DEF,41,21,0.17162263,0
+40416,rúben santos gato alves dias,38,DEF,59,21,2.0463412,5
+40452,rúnar alex rúnarsson,38,GK,44,21,0.098322496,0
+40528,sadio mané,38,MID,118,21,5.9642735,16
+40604,sam field,38,MID,48,21,0.2856612,0
+40648,sam greenwood,38,FWD,45,21,0.049301356,0
+40686,sam johnstone,38,GK,46,21,2.8915005,3
+40784,sam woods,38,DEF,40,21,0.11418529,0
+40836,sander berge,38,MID,49,21,0.13196383,0
+40869,saïd benrahma,38,MID,59,21,3.0707154,1
+40923,scott carson,38,GK,39,21,1.8001757,0
+40999,scott dann,38,DEF,42,21,0.12553076,0
+41075,scott mctominay,38,MID,49,21,2.1447613,0
+41152,sead kolasinac,38,DEF,48,21,0.28281003,0
+41228,seamus coleman,38,DEF,49,21,2.588272,0
+41304,sean longstaff,38,MID,46,21,0.8411656,3
+41418,serge aurier,38,DEF,52,21,0.20882668,0
+41495,sergio agüero,38,FWD,103,21,1.7685866,10
+41531,sergio reguilón,38,DEF,55,21,2.357186,1
+41607,sergio romero,38,GK,49,21,0.14699645,0
+41683,shane duffy,38,DEF,43,21,0.16052425,0
+41694,shane flynn,38,MID,45,21,0.19480328,0
+41770,shane long,38,FWD,51,21,0.20915465,0
+41847,shkodran mustafi,38,DEF,50,21,0.3350997,0
+41861,shola shoretire,38,MID,44,21,0.1521457,1
+41874,sidnei tavares,38,MID,44,21,0.17292424,0
+42026,simon moore,38,GK,43,21,0.13846146,0
+42102,sofiane boufal,38,MID,54,21,0.33396602,0
+42179,sokratis papastathopoulos,38,DEF,48,21,0.28280008,0
+42255,solomon march,38,MID,49,21,0.21996166,0
+42293,stefan johansen,38,MID,47,21,0.15411755,0
+42357,stephen henderson,38,GK,40,21,0.018560365,0
+42467,steven alzate,38,MID,41,21,1.1864707,1
+42519,steven bergwijn,38,MID,70,21,2.2309337,1
+42633,stuart armstrong,38,MID,55,21,2.2062018,2
+42671,stuart dallas,38,DEF,55,21,4.2859387,2
+42786,sébastien haller,38,FWD,61,21,0.50970244,0
+42862,tahith chong,38,MID,44,21,0.15215126,0
+42919,takumi minamino,38,MID,60,21,1.6295495,2
+42995,tammy abraham,38,FWD,71,21,0.75919044,0
+43071,tanguy ndombele,38,MID,59,21,1.0075891,0
+43128,tariq lamptey,38,DEF,46,21,0.17918548,0
+43132,tawanda maswanhise,38,MID,45,21,0.19478773,0
+43136,taylor gardner-hickman,38,MID,45,21,0.21596134,0
+43168,taylor harwood-bellis,38,DEF,40,21,0.09874286,0
+43221,taylor perry,38,MID,44,21,0.28042614,0
+43242,teddy jenks,38,MID,45,21,0.18749475,0
+43280,teden mengi,38,DEF,39,21,0.23227698,0
+43351,terence kongolo,38,DEF,43,21,0.26029566,0
+43368,thakgalo leshabela,38,MID,44,21,0.17294504,0
+43377,thanawat suengchitthawon,38,MID,45,21,0.19475126,0
+43402,theo corbeanu,38,MID,44,21,1.0141686,0
+43478,theo walcott,38,MID,58,21,1.94357,0
+43515,thiago alcántara do nascimento,38,MID,55,21,3.5548823,3
+43553,thiago thiago,38,DEF,56,21,3.7822456,1
+43587,thomas mcgill,38,GK,39,21,-0.014219508,0
+43621,thomas partey,38,MID,49,21,2.0849812,3
+43698,tim ream,38,DEF,42,21,1.6938432,1
+43774,timo werner,38,FWD,92,21,4.371158,1
+43812,timothy castagne,38,DEF,58,21,2.7600808,0
+43853,timothy fosu-mensah,38,DEF,43,21,0.30313444,0
+43929,toby alderweireld,38,DEF,54,21,2.4815266,1
+44007,tom cairney,38,MID,52,21,0.2562352,0
+44121,tom davies,38,MID,52,21,0.4609639,2
+44197,tom heaton,38,GK,45,21,0.03714852,0
+44287,tomas soucek,38,MID,52,21,3.4472995,3
+44333,tommy doyle,38,MID,44,21,0.026119485,0
+44367,tosin adarabioyo,38,DEF,45,21,3.124393,1
+44443,trent alexander-arnold,38,DEF,78,21,4.603157,5
+44574,tyler onyango,38,MID,45,21,0.15145688,0
+44612,tyler roberts,38,MID,46,21,2.358707,1
+44731,tyrick mitchell,38,DEF,38,21,1.6977565,1
+44807,tyrone mings,38,DEF,54,21,1.1392124,2
+44825,valentino livramento,38,DEF,40,21,0.22422418,0
+44901,vicente guaita,38,GK,48,21,1.7231133,2
+44977,victor lindelöf,38,DEF,48,21,2.9461432,0
+45129,virgil van dijk,38,DEF,62,21,0.795921,0
+45167,vitor ferreira,38,MID,47,21,1.4899213,0
+45202,vladimir coufal,38,DEF,48,21,3.8737388,10
+45219,vontae daley-campbell,38,DEF,40,21,0.15359291,0
+45333,wayne hennessey,38,GK,43,21,0.04711069,0
+45371,wes foderingham,38,GK,43,21,0.13857307,0
+45447,wes morgan,38,DEF,44,21,0.18881688,0
+45482,wesley fofana,38,DEF,50,21,2.302392,1
+45596,wesley moraes,38,FWD,60,21,0.47573942,0
+45672,wilfred ndidi,38,MID,48,21,2.3076837,2
+45748,wilfried zaha,38,MID,71,21,3.4445205,2
+45775,will ferry,38,MID,45,21,0.13072889,0
+45886,will norris,38,GK,40,21,1.9810275,2
+45926,william saliba,38,DEF,40,21,0.12248635,0
+45983,william smallbone,38,MID,43,21,0.09713259,0
+46059,willian borges da silva,38,MID,75,21,1.0540346,0
+46078,willian josé da silva,38,FWD,68,21,1.8273704,2
+46154,willy boly,38,DEF,54,21,1.3075402,0
+46230,willy caballero,38,GK,46,21,0.19575538,0
+46344,xherdan shaqiri,38,MID,64,21,1.7389202,0
+46420,yan valery,38,DEF,47,21,0.1886169,0
+46496,yerry mina,38,DEF,55,21,1.4539554,0
+46572,yoshinori muto,38,FWD,48,21,0.13864715,0
+46648,youri tielemans,38,MID,64,21,2.7672203,2
+46724,yves bissouma,38,MID,44,21,1.6391541,2
+46762,zack steffen,38,GK,44,21,0.010002777,0
+46779,zak brunt,38,MID,45,21,0.030641496,0
+46827,zeze steven sessegnon,38,DEF,43,21,0.26041457,0
+46903,çaglar söyüncü,38,DEF,53,21,2.8436928,0
+46979,ørjan nyland,38,GK,40,21,-0.011318013,0
